@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn calisthenics with workouts, tips, and progress goals. Start your bodyweight fitness journey today!">
+    <meta name="description"
+        content="Learn calisthenics with workouts, tips, and progress goals. Start your bodyweight fitness journey today!">
     <title>Calisthenics | Home</title>
 
     <!-- Bootstrap css library -->
@@ -17,19 +18,50 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                MySite
+            </a>
+            <!-- Toggle Button for Small Screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation List -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Basic Workouts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book a Session</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <!-- Header  -->
-     <header class="container">
+    <header class="container">
         <div class="row">
             <div class="col-12 col-xl-12">Title</div>
             <div class="col-12 col-xl-6">Picture</div>
             <div class="col-12 col-xl-6">Text</div>
         </div>
-     </header>
+    </header>
 
-     <!-- main element is not part of the grid structure -->
-     <main>
+    <!-- main element is not part of the grid structure -->
+    <main>
         <section class="container">
             <div class="row">
                 <div class="col-12 col-xl-6">Information</div>
@@ -37,9 +69,9 @@
             </div>
         </section>
 
-     </main>
+    </main>
 
-     <!-- Footer -->
+    <!-- Footer -->
     <Footer class="mt-auto">
         <div class="container">
             <div class="row justify-content-center">
@@ -47,7 +79,7 @@
                 <div class="col-12 col-md-6 col-xl-4">Contact Info</div>
             </div>
         </div>
-        
+
     </Footer>
 
 
