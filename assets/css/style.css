@@ -8,6 +8,9 @@
     --secondary-font: "Oswald", sans-serif;
     --primary-color: #0b8ab8; /* blue */
 }
+
+/* Global styles */
+
 body {
     font-family: var(--secondary-font);
 }
@@ -17,6 +20,10 @@ h1 {
     color: var(--primary-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 /* Navbar */
 
 #navbar {
