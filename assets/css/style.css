@@ -6,7 +6,7 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #0b8ab8; /* blue */
+    --primary-color: #000001; /* blue */
 }
 
 /* Global styles */
@@ -15,19 +15,37 @@ body {
     font-family: var(--secondary-font);
 }
 
-h1 {
+h1,h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
 
 .section {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 /* Navbar */
 
 #navbar {
     background-color: var(--primary-color);
+}
+
+#header-background {
+    background-image: url("../images/calisthenics-pic-4.jpg"); /* Adjust path if needed */
+    background-size: cover; /* Ensures full coverage */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    width: 100vw; /* Full width of the viewport */
+}
+
+#header-background p {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+#header-background h1,h2 {
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
 }
 
 /* temp grid style */
