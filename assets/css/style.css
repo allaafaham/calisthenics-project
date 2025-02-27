@@ -20,10 +20,22 @@ h1,h2 {
     font-family: var(--primary-font);
 }
 
+h2 {
+    margin-bottom: 13rem;
+}
+
+a {
+    color: inherit; /* Inherits text color from parent */
+    text-decoration: none; /* Removes underline */
+}
+
+
 .section {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+
 /* Navbar */
 
 #navbar {
@@ -58,6 +70,13 @@ h1,h2 {
     text-shadow: 1px 1px 4px rgba(6, 1, 1, 0.7);
 } 
 
+#footerpart {
+    background-color: var(--secondary-color);
+}
+
+#footerpart a {
+    margin-right: 1em;
+    }
 /* temp grid style */
 /* .container, .row {
     border: 2px solid black;
