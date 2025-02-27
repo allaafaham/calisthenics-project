@@ -31,23 +31,30 @@ h1,h2 {
     background-color: var(--primary-color);
 }
 
+#logoimage {
+    filter: invert(100%);
+}
+
 #header-background {
-    background-image: url("../images/calisthenics-pic-4.jpg"); /* Adjust path if needed */
+    background-image: url("../images/calisthenics-pic-4.jpg"); 
     background-size: cover; /* Ensures full coverage */
     background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repetition */
+    background-repeat: no-repeat; /* prevents repition */
     width: 100vw; /* Full width of the viewport */
 }
 
 #header-background p {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    
 
 }
 
-/* #header-background h1,h2 {
-    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
-} */
+
+
+#header-background h1,h2 {
+    text-shadow: 1px 1px 4px rgba(6, 1, 1, 0.7);
+} 
 
 /* temp grid style */
 /* .container, .row {
