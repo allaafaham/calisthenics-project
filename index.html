@@ -1,106 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Learn calisthenics with workouts, tips, and progress goals. Start your bodyweight fitness journey today!">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn calisthenics with workouts, tips, and progress goals. Start your bodyweight fitness journey today!"
+    />
     <title>Calisthenics | Home</title>
 
     <!-- Bootstrap css library -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
     <!-- custom css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img id="logoimage" src="assets/images/logo.png" alt="Logo" width="30" height="30"
-                    class="d-inline-block align-text-top">
-                Calisthenics
-            </a>
-            <!-- Toggle Button for Small Screens -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navigation List -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="basic-workouts.html">Basic Workouts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Progress</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Book a Session</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            id="logoimage"
+            src="assets/images/logo.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          Calisthenics
+        </a>
+        <!-- Toggle Button for Small Screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation List -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="basic-workouts.html">Basic Workouts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Progress</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book a Session</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-
 
     <!-- Header with a pic -->
     <header id="header-background" class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-12">
-                    <h1 class="display-3">Calisthenics</h1>
-                    <p class="my-4">Calisthenics builds strength, flexibility, and endurance using just your body. It’s
-                        versatile,
-                        requires no equipment, and helps you master powerful, functional movements anywhere! </p>
-                    <h2>change your life now</h2>
-                </div>
-                <div class="col-12 col-xl-6">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-12">
+            <h1 class="display-3">Calisthenics</h1>
+            <p class="my-4">
+              Calisthenics builds strength, flexibility, and endurance using
+              just your body. It’s versatile, requires no equipment, and helps
+              you master powerful, functional movements anywhere!
+            </p>
+            <h2>change your life now</h2>
+          </div>
+          <div class="col-12 col-xl-6"></div>
         </div>
+      </div>
     </header>
 
     <!-- main element is not part of the grid structure -->
     <main>
-        <section class="container">
-            <div class="row">
-                <div class="col-12 col-xl-6">Information</div>
-                <div class="col-12 col-xl-6">Contect of the information</div>
-            </div>
-        </section>
+      <section class="container mt-2 mb-2">
+        <div class="row g-2">
+          <!-- Title of cards -->
+          <div class="col-12 text-center mb-2"><h1>Why Calisthenics</h1></div>
 
+          <!-- Why Calisthenics 1 -->
+          <div class="col-12 col-md-4 col-xl-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/card1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Body Control</h5>
+                <p class="card-text">
+                  Calisthenics improves coordination, balance, and mobility by
+                  training your body to move efficiently.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Why Calisthenics 2 -->
+          <div class="col-12 col-md-4 col-xl-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/card2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Minimal Equipment</h5>
+                <p class="card-text">
+                  You can train anywhere with just your body weight, making
+                  workouts convenient and cost-effective.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Why Calisthenics 3 -->
+          <div class="col-12 col-md-4 col-xl-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets/images/card3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Flexibility Boost</h5>
+                <p class="card-text">
+                  Dynamic movements enhance flexibility and mobility, preventing
+                  stiffness and reducing the risk of injuries.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <Footer class="mt-auto">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">Contant Section heading</div>
-                <div class="col-12 col-md-6 col-xl-4">Contact Info</div>
-            </div>
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">Contant Section heading</div>
+          <div class="col-12 col-md-6 col-xl-4">Contact Info</div>
         </div>
-
-    </Footer>
-
+      </div>
+    </footer>
 
     <!-- Bootstrap JS library -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
     <!--  Font Awesome installation -->
-    <script src="https://kit.fontawesome.com/4f02a92a71.js" crossorigin="anonymous"></script>
-
-
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/4f02a92a71.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
