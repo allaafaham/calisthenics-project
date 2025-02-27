@@ -76,6 +76,16 @@ a {
 
 /* main */
 
+#contactform {
+    margin: 1em;
+    max-width: 50;
+}
+
+#gohome {
+    text-align: center;
+}
+
+/* Footer */
 
 #footerpart {
     background-color: var(--secondary-color);
