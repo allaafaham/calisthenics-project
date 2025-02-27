@@ -43,8 +43,12 @@ a {
 }
 
 #logoimage {
-    filter: invert(100%);
+    /* filter: invert(100%); */
+    filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(10deg);
 }
+
+
+
 
 #header-background {
     background-image: url("../images/calisthenics-pic-4.jpg"); 
@@ -69,6 +73,9 @@ a {
 #header-background h1,h2 {
     text-shadow: 1px 1px 4px rgba(6, 1, 1, 0.7);
 } 
+
+/* main */
+
 
 #footerpart {
     background-color: var(--secondary-color);
