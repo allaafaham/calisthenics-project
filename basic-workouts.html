@@ -69,11 +69,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Progress</a>
+              <a class="nav-link" href="progress.html">Progress</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ms-lg-3" href="booking.html"
-                >Book a Session</a
+                <a id="navbutton" class="btn btn-primary ms-lg-3" href="booking.html">Book a Session</a>
               >
             </li>
           </ul>
@@ -99,44 +98,113 @@
     <section class="container mt-2 mb-2">
       <div id="whycali" class="row g-3">
         <div id="h1main" class="col-12 text-center"><h1>Warm Up</h1></div>
-        <!-- Warm Up  1 -->
-        <div class="col-12 col-md-4 col-xl-4 home-card">
-          <div class="card" style="width: 18rem">
-            <img src="assets/images/card1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h3 class="card-title">Body Control</h3>
-              <p class="card-text">
-                Calisthenics improves coordination, balance, and mobility by
-                training your body to move efficiently.
-              </p>
+        <!-- Warum Up Accordion -->
+        <div class="accordion" id="accordionWarmup">
+          <!-- Warm Up 1  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWarumupOne"
+                aria-expanded="false"
+                aria-controls="collapseWarumupOne"
+              >
+                Jumping Jacks
+              </button>
+            </h2>
+            <div
+              id="collapseWarumupOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionWarmup"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Jumping jacks are a classic
+                full-body warm-up exercise. This cardio movement helps elevate
+                your heart rate and prepares your muscles for more intense
+                exercise. It also engages the legs, arms, and core. <br />
+                <br />
+                <strong>How to do it: </strong>Stand with your feet together and
+                arms at your sides. Jump and simultaneously spread your legs
+                wide while raising your arms overhead. Quickly return to the
+                starting position. Repeat for 30-60 seconds <br />
+                <br />
+                <strong>Benefits: </strong> Improves cardiovascular fitness,
+                increases flexibility, and warms up the whole body.
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- Warm Up 2 -->
-        <div class="col-12 col-md-4 col-xl-4 home-card">
-          <div class="card" style="width: 18rem">
-            <img src="assets/images/card2.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h3 class="card-title">Minimal Equipment</h3>
-              <p class="card-text">
-                You can train anywhere with just your body weight, making
-                workouts convenient and cost-effective.
-              </p>
+          <!-- Warum Up 2  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWarmupTwo"
+                aria-expanded="false"
+                aria-controls="collapseWarmupTwo"
+              >
+                Arm Circles
+              </button>
+            </h2>
+            <div
+              id="collapseWarmupTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionWarmup"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Arm circles are a great warm-up
+                for the shoulders and upper body. This movement helps increase
+                blood flow to your upper body and mobilizes the shoulder joints.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Extend your arms out to the
+                sides, keeping them parallel to the ground. Start making small
+                circles with your arms, gradually increasing the size of the
+                circles. Do this for 30 seconds in one direction, then switch to
+                the opposite direction. <br />
+                <br />
+                <strong>Benefits: </strong> Improves shoulder mobility,
+                increases circulation to the arms, and activates the upper body
+                muscles.
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- Warum Up 3 -->
-        <div class="col-12 col-md-4 col-xl-4 home-card">
-          <div class="card" style="width: 18rem">
-            <img src="assets/images/card3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h3 class="card-title">Flexibility Boost</h3>
-              <p class="card-text">
-                Dynamic movements enhance flexibility and mobility, preventing
-                stiffness and reducing the risk of injuries.
-              </p>
+          <!-- Warum Up 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWarmupThree"
+                aria-expanded="false"
+                aria-controls="collapseWarmupThree"
+              >
+                Hip Circles
+              </button>
+            </h2>
+            <div
+              id="collapseWarmupThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionWarmup"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Hip circles are a great exercise
+                to mobilize the hips and lower back. They also activate the core
+                muscles and improve flexibility in the hip joint.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Stand with your feet
+                shoulder-width apart and place your hands on your hips. Make
+                circular motions with your hips in a clockwise direction for 30
+                seconds, then reverse the direction for 30 seconds. <br />
+                <br />
+                <strong>Benefits: </strong> Enhances flexibility in the hips,
+                strengthens the core, and prepares the lower body for movement.
+              </div>
             </div>
           </div>
         </div>
@@ -145,129 +213,271 @@
 
     <!-- Upper Body -->
     <section class="container mt-2 mb-2">
-        <div id="whycali" class="row g-3">
-          <div id="h1main" class="col-12 text-center"><h1>Warm Up</h1></div>
-          <!-- Warm Up  1 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Body Control</h3>
-                <p class="card-text">
-                  Calisthenics improves coordination, balance, and mobility by
-                  training your body to move efficiently.
-                </p>
+      <div id="whycali" class="row g-3">
+        <div id="h1main" class="col-12 text-center"><h1>Upper Body</h1></div>
+        <!-- Upper Body Accordion -->
+        <div class="accordion" id="accordionUpperbody">
+          <!-- Upper Body 1  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseUpperbodyOne"
+                aria-expanded="false"
+                aria-controls="collapseUpperbodyOne"
+              >
+                Push-Ups
+              </button>
+            </h2>
+            <div
+              id="collapseUpperbodyOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionUpperbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Push-ups are a classic upper body
+                exercise that targets the chest, shoulders, and triceps. They
+                also engage the core for stability.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Start in a plank position with
+                your hands placed slightly wider than shoulder-width apart.
+                Lower your body by bending your elbows until your chest is just
+                above the ground. Push through your palms to return to the
+                starting position. <br />
+                <br />
+                <strong>Benefits: </strong> Strengthens the chest, shoulders,
+                triceps, and core. Helps with stability and upper body
+                endurance.
               </div>
             </div>
           </div>
-  
-          <!-- Warm Up 2 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Minimal Equipment</h3>
-                <p class="card-text">
-                  You can train anywhere with just your body weight, making
-                  workouts convenient and cost-effective.
-                </p>
+          <!-- Upper Body 2  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseUpperbodyTwo"
+                aria-expanded="false"
+                aria-controls="collapseUpperbodyTwo"
+              >
+                Tricep Dips
+              </button>
+            </h2>
+            <div
+              id="collapseUpperbodyTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionUpperbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Tricep dips focus on the triceps,
+                shoulders, and chest. This exercise can be performed using a
+                bench or any elevated surface.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Sit on the edge of a bench with
+                your hands gripping the edge beside your hips. Slide your butt
+                off the edge and extend your legs in front of you. Lower your
+                body by bending your elbows until they are at a 90-degree angle,
+                then push back up to the starting position. <br />
+                <br />
+                <strong>Benefits: </strong> Targets the triceps, shoulders, and
+                chest, improving upper body pushing strength.
               </div>
             </div>
           </div>
-  
-          <!-- Warum Up 3 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Flexibility Boost</h3>
-                <p class="card-text">
-                  Dynamic movements enhance flexibility and mobility, preventing
-                  stiffness and reducing the risk of injuries.
-                </p>
+          <!-- Upper Body 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseUpperbodyThree"
+                aria-expanded="false"
+                aria-controls="collapseUpperbodyThree"
+              >
+                Plank to Push-Up
+              </button>
+            </h2>
+            <div
+              id="collapseUpperbodyThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionUpperbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>This exercise combines the plank
+                and push-up into one movement, providing a great workout for the
+                shoulders, triceps, and core.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Start in a forearm plank
+                position. Push up onto your hands, one hand at a time, then
+                lower yourself back down onto your forearms. Alternate which
+                hand pushes you up and which hand lowers you down. <br />
+                <br />
+                <strong>Benefits: </strong> Strengthens the chest, triceps,
+                shoulders, and core, improving stability and endurance.
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <!-- Lower Body -->
-      <section class="container mt-2 mb-2">
-        <div id="whycali" class="row g-3">
-          <div id="h1main" class="col-12 text-center"><h1>Warm Up</h1></div>
-          <!-- Warm Up  1 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Body Control</h3>
-                <p class="card-text">
-                  Calisthenics improves coordination, balance, and mobility by
-                  training your body to move efficiently.
-                </p>
+    <section class="container mt-2 mb-2">
+      <div id="whycali" class="row g-3">
+        <div id="h1main" class="col-12 text-center"><h1>Lower Body</h1></div>
+        <!-- Lower Body Accordion -->
+        <div class="accordion" id="accordionLowerbody">
+          <!-- Lower Body 1  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLowerbodyOne"
+                aria-expanded="false"
+                aria-controls="collapseLowerbodyOne"
+              >
+                Squats
+              </button>
+            </h2>
+            <div
+              id="collapseLowerbodyOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLowerbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong>Squats are a fundamental lower
+                body exercise that targets the quadriceps, hamstrings, glutes,
+                and calves. This movement also engages the core for stability.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Stand with your feet
+                shoulder-width apart and your toes slightly turned out. Lower
+                your body by bending your knees and pushing your hips back,
+                keeping your chest upright. Go as low as you can while
+                maintaining good form, then push through your heels to return to
+                standing. <br />
+                <br />
+                <strong>Benefits: </strong> Strengthens the legs and glutes,
+                enhances mobility in the hips and knees, and improves core
+                stability.
               </div>
             </div>
           </div>
-  
-          <!-- Warm Up 2 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Minimal Equipment</h3>
-                <p class="card-text">
-                  You can train anywhere with just your body weight, making
-                  workouts convenient and cost-effective.
-                </p>
+          <!-- Lower Body 2  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLowerbodyTwo"
+                aria-expanded="false"
+                aria-controls="collapseLowerbodyTwo"
+              >
+                Lunges
+              </button>
+            </h2>
+            <div
+              id="collapseLowerbodyTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLowerbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong> Lunges are a single-leg movement
+                that targets the quads, hamstrings, glutes, and calves. They
+                also improve balance and coordination.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Stand with your feet together,
+                then take a big step forward with one leg. Lower your hips until
+                both knees are at 90-degree angles, ensuring your front knee
+                doesn't go beyond your toes. Push off the front foot to return
+                to the starting position and repeat on the other side. <br />
+                <br />
+                <strong>Benefits: </strong> Strengthens the legs, glutes, and
+                core, improves balance, and targets each leg individually.
               </div>
             </div>
           </div>
-  
-          <!-- Warum Up 3 -->
-          <div class="col-12 col-md-4 col-xl-4 home-card">
-            <div class="card" style="width: 18rem">
-              <img src="assets/images/card3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h3 class="card-title">Flexibility Boost</h3>
-                <p class="card-text">
-                  Dynamic movements enhance flexibility and mobility, preventing
-                  stiffness and reducing the risk of injuries.
-                </p>
+          <!-- Lower Body 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseLowerbodyThree"
+                aria-expanded="false"
+                aria-controls="collapseLowerbodyThree"
+              >
+                Glute Bridges
+              </button>
+            </h2>
+            <div
+              id="collapseLowerbodyThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionLowerbody"
+            >
+              <div class="accordion-body">
+                <strong>Description: </strong> Glute bridges focus on the
+                glutes, hamstrings, and lower back. This exercise helps improve
+                hip extension and strengthens the posterior chain.
+                <br />
+                <br />
+                <strong>How to do it: </strong>Lie on your back with your knees
+                bent and feet flat on the floor, hip-width apart. Press through
+                your heels to lift your hips off the ground, squeezing your
+                glutes at the top. Lower your hips back down without touching
+                the floor and repeat. <br />
+                <br />
+                <strong>Benefits: </strong> Strengthens the glutes, hamstrings,
+                and lower back. It also helps improve posture and hip
+                flexibility.
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="mt-auto">
-        <div id="footerpart" class="container-fluid">
-          <div class="row">
-            <div class="col-12 text-center mt-4">
-              <h1>Join the community</h1>
-            </div>
-            <!-- three logos -->
-            <div class="col-12 text-center mb-4 fa-3x">
-              <a href="https://fb.com" target="_blank" rel="noopener noreferrer"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-youtube"></i
-              ></a>
-            </div>
+      <div id="footerpart" class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-center mt-4">
+            <h1>Join the community</h1>
+          </div>
+          <!-- three logos -->
+          <div class="col-12 text-center mb-4 fa-3x">
+            <a href="https://fb.com" target="_blank" rel="noopener noreferrer"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS library -->
     <script
