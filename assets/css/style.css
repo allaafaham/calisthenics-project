@@ -6,7 +6,8 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #000001; /* blue */
+    --primary-color: #000001;
+    /* blue */
     --secondary-color: #fbe51f;
 }
 
@@ -16,15 +17,18 @@ body {
     font-family: var(--secondary-font);
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: var(--primary-font);
 }
 
 
 
 a {
-    color: inherit; /* Inherits text color from parent */
-    text-decoration: none; /* Removes underline */
+    color: inherit;
+    /* Inherits text color from parent */
+    text-decoration: none;
+    /* Removes underline */
 }
 
 
@@ -57,18 +61,23 @@ a {
 }
 
 #navbutton:hover {
-    background-color: #f8f9fa; /* Optional: Adds a light hover effect */
-  }
+    background-color: #f8f9fa;
+    /* Optional: Adds a light hover effect */
+}
 
 /* hero */
 
 
 #header-background {
-    background-image: url("../images/calisthenics-pic-4.jpg"); 
-    background-size: cover; /* Ensures full coverage */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* prevents repition */
-    width: 100%; /* Full width of the screen */
+    background-image: url("../images/calisthenics-pic-4.jpg");
+    background-size: cover;
+    /* Ensures full coverage */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* prevents repition */
+    width: 100%;
+    /* Full width of the screen */
     height: 450px;
 }
 
@@ -77,11 +86,12 @@ a {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     background-color: rgba(0, 0, 0, 0.7);
     width: auto;
-    
+
 
 }
 
-#header-background h1, #header-background h2{
+#header-background h1,
+#header-background h2 {
     color: var(--secondary-color);
     background-color: rgba(0, 0, 0, 0.7);
     text-shadow: 1px 1px 4px rgba(6, 1, 1, 0.7);
@@ -89,13 +99,14 @@ a {
     margin-bottom: -1px;
 }
 
-#header-background h1, h2, p {
-    margin: 1; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-  }
-
-
-
+#header-background h1,
+h2,
+p {
+    margin: 1;
+    /* Removes default margin */
+    padding: 0;
+    /* Removes default padding */
+}
 
 
 
@@ -108,7 +119,7 @@ a {
 
 #gohome {
     text-align: center;
-    
+
 }
 
 .home-card {
@@ -118,14 +129,14 @@ a {
 
 #h1main {
     justify-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #h1main h1 {
     padding: 15px;
     background-color: yellow;
     top: -39px;
-    width: 100%;
+    width: 100vw;
     border: 1.5px #999 solid;
 }
 
@@ -135,7 +146,8 @@ a {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: var(--secondary-color); /* Change this to your desired color */
+    background-color: var(--secondary-color);
+    /* Change this to your desired color */
     /* color: white !important; Change text color if needed */
 }
 
@@ -152,7 +164,8 @@ a {
 
 #footerpart a {
     margin-right: 1em;
-    }
+}
+
 /* temp grid style */
 /* .container, .row {
     border: 2px solid black;

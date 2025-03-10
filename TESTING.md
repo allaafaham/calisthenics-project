@@ -38,6 +38,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
+|  | [404.html](https://github.com/allaafaham/calisthenics-project/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/404.html) | ![screenshot](documentation/validation/html--404.png) | Notes (if applicable) |
 |  | [basic-workouts.html](https://github.com/allaafaham/calisthenics-project/blob/main/basic-workouts.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/basic-workouts.html) | ![screenshot](documentation/validation/html--basic-workouts.png) | Notes (if applicable) |
 |  | [booking.html](https://github.com/allaafaham/calisthenics-project/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/booking.html) | ![screenshot](documentation/validation/html--booking.png) | Notes (if applicable) |
 |  | [index.html](https://github.com/allaafaham/calisthenics-project/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/index.html) | ![screenshot](documentation/validation/html--index.png) | Notes (if applicable) |
