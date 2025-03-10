@@ -10,23 +10,6 @@ In this section, include a few paragraphs providing an overview of your project.
 
 ⚠️ --- END --- ⚠️
 
-🛑 NOTES 🛑
-
-Do not add a **Table of Contents** to your Markdown files. GitHub has these built-in automatically using the headers/hashtags.
-
-Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
-
-**Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://allaafaham.github.io/calisthenics-project), [techsini](https://techsini.com/multi-mockup), etc.)*
-Having issues generating site mockups? This is likely due to security policies with your deployed site.
-If you open up your DevTools, there may be an error referencing `X-Frame-Options`.
-
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser. Once installed, navigate back to the mockup site of your choice. You should find your site rendering in the various devices now.
-
-Alternatively, open your project in Gitpod and run the server. Once the site is running, click the `Ports` tab from your Gitpod Terminal. Click the padlock on the appropriate port for your project (`Flask: 5000`, `Django: 8000`). This will make your local page public temporarily. Now, copy the URL of your live-preview page into the responsive tool above. You should find your site rendering in the various devices.
-
-🛑 --- END ---- 🛑
-
 ![screenshot](documentation/mockup.png)
 
 source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=https://allaafaham.github.io/calisthenics-project)
@@ -40,42 +23,41 @@ source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=ht
 
 #### 1. Strategy Plane
 ##### Purpose
-- Encourage users to join the running club by showcasing its mission, community spirit, and benefits.
-- Provide a seamless user experience to keep users informed and engaged.
+- Encourage users to start training calisthenics by showcasing workout routines, benefits, and tips for each body part.
+- Provide a seamless and motivating user experience to keep users coming back for their workout needs.
 
 ##### Primary User Needs
-- Learn about the club’s purpose and events.
-- Join the club and stay updated.
-- Access responsive, user-friendly content.
+- Learn about the various calisthenics exercises for different body parts (upper body, lower body, warm-up).
+- View descriptions of exercises for proper technique.
+- Stay motivated with progress tracking.
 
 ##### Business Goals
-- Increase club membership.
-- Boost participation in events and social media engagement.
+- Increase site traffic and engagement.
+- Promote health and fitness through calisthenics.
 
 #### 2. Scope Plane
 ##### Features
 - A full list of [Features](#features) can be viewed in detail below.
 
 ##### Content Requirements
-- Clear, motivational text about the club’s mission.
-- Photos showcasing the community.
-- Event schedules and descriptions.
-- Forms for membership sign-up.
+- Detailed descriptions of each exercise in each category (Warm-up, Upper Body, Lower Body).
+- discriptions explaining proper exercise form.
+- Form for private sessions.
 
 #### 3. Structure Plane
 ##### Information Architecture
 - **Navigation Menu**:
-  - Accessible links in the navbar.
+  - Links to Home, Basic Workouts, Progerss and a booking page
 - **Hierarchy**:
   - Clear call-to-action buttons.
   - Prominent placement of social media links in the footer.
 
 ##### User Flow
-1. User lands on the home page → learns about the club’s mission.
-2. Navigates to the schedule/timetable → sees sessions they can join.
-3. Views the events → checks upcoming/past event details.
-4. Signs up via the membership page.
-5. Browses the gallery → explores the community spirit.
+1. User lands on the home page → sees a description of calisthenics benefits.
+2. Navigates to the Basic Workouts section. 
+3. Views exercise details → follows the instructions for each exercise.
+4. Navigates to the progress and gets an idea of the different levels.
+5. Navigates to the booking page. 
 
 #### 4. Skeleton Plane
 ##### Wireframe Suggestions
@@ -88,14 +70,7 @@ source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=ht
 
 ### Colour Scheme
 
-⚠️INSTRUCTIONS ⚠️
-
-Explain your colors and color scheme. Consider adding a link and screenshot for your color scheme using [coolors](https://coolors.co/generate).
-
-When you add a color to the palette, the URL is dynamically updated, making it easier for you to return back to your color palette later if needed. See example below:
-
-⚠️ --- END --- ⚠️
-
+I used the colors white, 
 I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
 
 - `#000000` primary text.
@@ -127,14 +102,12 @@ In this section, list all of your possible user stories for the project. Samples
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. |
-| As an user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
+| As a first-time visitor | I want to see what calisthenics is about | so I can decide if it’s for me. |
+| As a fitness beginner | I want to find simple workouts  | so I can start exercising without equipment. |
+| As a serious visitor | I want to book a private lesson | so that I can improve my skills faster. |
+| As an user | I want to navigate easily between pages | so I can explore all the content. |
+| As a curious learner | I want to understand the basics of calisthenics | sso I can learn how to begin. |
+| As a motivated user | I want to see progress goals | so I can feel inspired to keep going. |
 
 ## Wireframes
 
@@ -167,44 +140,31 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-| Feature | Notes | Screenshot |
-| --- | --- | --- |
-| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar.png) |
-| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to *Love Running* with an eye-catching animation to grab their attention. | ![screenshot](documentation/features/hero-image.png) |
-| Club Ethos | The club ethos section will allow the user to see the benefits of joining the *Love Running* meetups, as well as the benefits of running overall. The user will see the value of signing up for the *Love Running* meetups. This should encourage the user to consider running as their form of exercise. | ![screenshot](documentation/features/club-ethos.png) |
-| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/schedule.png) |
-| Footer | The footer includes links to the relevant social media sites for *Love Running*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Gallery | The gallery will provide the user with supporting images to see what the meet-ups look like. This section is valuable to the user, as they will be able to easily identify the types of events that the organization puts together. It's responsive so no images stretch or skew, showing images stacked by 1 on mobile, by 2 on smaller tablets, by 3 on desktop, and by 4 on larger screens. | ![screenshot](documentation/features/gallery.png) |
-| Signup | This page will allow the user to sign up to *Love Running* and start their running journey with the community. The user will be able specify if they would like to take part in road, trail, or both types of running. The user will be asked to submit their full name and email address. | ![screenshot](documentation/features/singup.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the *Love Running* club. Due to the lack of a database or email system so far, this is a fake confirmation page, and will automatically redirect the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| Feature        | Notes | Screenshot |
+| -------------- | ----- | ----------- |
+| Navbar         | Featured on all pages, the fully responsive navigation bar includes links to the **Home**, **Basic Workouts**, **Progress**, and **Booking** pages, as well as the site logo. It is identical on all pages to allow for easy navigation. On the smallest screens, an icon is used to toggle the navbar, saving space. This section allows the user to easily navigate between pages without returning to the previous page using the "back" button. | ![screenshot](documentation/features/navbar.png) |
+| Hero Image     | The landing page includes a hero image with text-overlay to introduce the user to the website. The image grabs attention and provides context for the website theme. | ![screenshot](documentation/features/hero-image.png) |
+| Basic Workouts | This section provides the user with three workout categories: **Warm-up**, **Upper Body**, and **Lower Body**. Each category contains three exercises with descriptions, benefits, and instructions on how to perform each exercise correctly. This helps users easily learn and execute calisthenics exercises. | ![screenshot](documentation/features/basic-workouts.png) |
+| Progress       | The **Progress** page features a table showing different levels of calisthenics trainer expertise: **Beginner**, **Intermediate**, and **Professional**. This section helps users track their own progress and understand the skills required for each level. | ![screenshot](documentation/features/progress.png) |
+| Booking        | The **Booking** page allows users to book private sessions. The page includes a form where users can fill in their details. Upon successful submission, users are directed to a confirmation page. | ![screenshot](documentation/features/booking.png) |
+| Footer         | The footer includes links to the site's social media platforms, which open in a new tab for easy access. This section encourages users to stay connected through social media. | ![screenshot](documentation/features/footer.png) |
+| 404            | The **404 page** appears when users navigate to a non-existent page. It maintains the same design as the rest of the site with the standard navbar and footer, creating a seamless user experience. | ![screenshot](documentation/features/404.png) |
+| Confirmation   | The **Confirmation page** appears after the user successfully fills out the form on the **Booking** page. It gives the illusion of a successful form submission, then automatically redirects the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
+
 
 ### Future Features
 
-⚠️ INSTRUCTIONS ⚠️
 
-Do you have additional ideas that you'd like to include on your project in the future? Fantastic, list them here! It's always great to have plans for future improvements. Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+- **Personalized User Profiles**: Allow users to create accounts where they can track their progress in calisthenics, save their workout routines, and monitor improvements over time.
+- **Customizable Workout Plans**: Offer customizable workout plans based on the user's experience level (beginner, intermediate, advanced). Users can receive notifications for scheduled workouts.
+- **Interactive Exercise Guide**: Create interactive, step-by-step guides for each exercise, including images, videos, and real-time tips for proper form.
+- **Leaderboard**: Display a leaderboard showing the top users based on the number of completed workouts, longest streaks, or best workout performance.
+- **Weekly Challenges**: Introduce weekly challenges with specific exercises or workout goals that users can take part in, adding a fun and motivating element.
+- **Social Sharing**: Allow users to share their workout progress, achievements, or favorite exercises directly on social media platforms.
+- **Calisthenics Merchandise**: Add an online store where users can purchase branded workout gear, such as T-shirts, resistance bands, or workout mats.
+- **Push Notifications**: Enable users to opt-in for notifications about new workout plans, progress reminders, or new blog posts..
+- **Charity Workouts**: Partner with charities where users can participate in charity-themed workouts, track their progress, and raise awareness for good causes.
 
-A few examples are listed below to align with possible ways to improve on the sample walkthrough project, to give you some inspiration.
-
-⚠️ --- END ---⚠️
-
-- **Personalized User Profiles**: Allow users to create accounts where they can track their running progress, view personal stats, and share their achievements.
-- **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
-- **Event Registration & Payment**: Integrate an option for runners to register and pay for upcoming events or races directly through the site.
-- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for reaching milestones (e.g., number of runs, personal bests, attending events).
-- **Interactive Maps**: Display interactive running route maps, complete with distance markers, elevation data, and difficulty ratings.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support friends running in real-time.
-- **Runner's Blog**: Include a blog section for members to share their running experiences, tips, and stories, fostering community engagement.
-- **Leaderboards**: Add a feature where users can compare their running stats with others in the club via leaderboards (e.g., most kilometers run, fastest times).
-- **Weekly Challenges**: Implement weekly running challenges or group challenges to keep users motivated and engaged.
-- **Weather Integration**: Show local weather conditions for Dublin and suggest the best times for a run, based on user preferences.
-- **Social Sharing**: Enable users to share their runs, achievements, or event participation directly on social media from the site.
-- **Club Merchandise Store**: Introduce an online store where users can purchase branded running gear like shirts, jackets, or water bottles.
-- **Push Notifications**: Allow users to opt-in for mobile push notifications for schedule updates, new events, or motivational reminders.
-- **Virtual Runs**: Create a platform for virtual runs where members can participate remotely and still receive medals or rewards.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for runners to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can run to raise money or awareness for specific causes.
 
 ## Tools & Technologies
 
@@ -218,16 +178,8 @@ A few examples are listed below to align with possible ways to improve on the sa
 | [![badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) | Design and layout. |
 | [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
 | [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) | Icons. |
+| [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com/) | Utilize prebuilt grid system and components |
 
-⚠️ NOTE ⚠️
-
-Want to add more?
-
-- Tutorial: https://shields.io/badges/static-badge
-- Icons/Logos: https://simpleicons.org
-  - FYI: not all logos are available to use
-
-🛑 --- END --- 🛑
 
 ## Agile Development Process
 
@@ -313,29 +265,12 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 
 ### Local VS Deployment
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site. Generally, there shouldn't be [m]any major differences, so if you honestly cannot find any differences, feel free to use the following example:
-
-⚠️ --- END --- ⚠️
-
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
 
-⚠️ INSTRUCTIONS ⚠️
-
-In the following sections, you need to reference where you got your content, media, and any extra help. It is common practice to use code from other repositories and tutorials (which is totally acceptable), however, it is important to be very specific about these sources to avoid potential plagiarism.
-
-⚠️ --- END ---⚠️
-
 ### Content
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links for any borrowed code snippets, elements, and resources. Ideally, you should provide an actual link to every resource used, not just a generic link to the main site. If you've used multiple components from the same source (such as Bootstrap), then you only need to list it once, but if it's multiple Codepen samples, then you should list each example individually. If you've used AI for some assistance (such as ChatGPT or Perplexity), be sure to mention that as well. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 | Source | Notes |
 | --- | --- |
@@ -346,30 +281,6 @@ Use this space to provide attribution links for any borrowed code snippets, elem
 
 ### Media
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links to any media files borrowed from elsewhere (images, videos, audio, etc.). If you're the owner (or a close acquaintance) of some/all media files, then make sure to specify this information. Let the assessors know that you have explicit rights to use the media files within your project. Ideally, you should provide an actual link to every media file used, not just a generic link to the main site, unless it's AI-generated artwork.
-
-Looking for some media files? Here are some popular sites to use. The list of examples below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links by sending yourself (or Slackbot) the following command: `!freemedia`.
-
-- Images
-    - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
-    - [Pixabay](https://pixabay.com)
-    - [Lorem Picsum](https://picsum.photos) (placeholder images)
-    - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
-    - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-- Video
-    - [Videvo](https://www.videvo.net)
-- Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
-
-A few examples have been provided below to give you some ideas on how to do your own Media credits.
-
-⚠️ --- END ---⚠️
 
 | Source | Notes |
 | --- | --- |
@@ -386,15 +297,9 @@ A few examples have been provided below to give you some ideas on how to do your
 
 ### Acknowledgements
 
-⚠️ INSTRUCTIONS ⚠️
 
-Use this space to provide attribution and acknowledgement to any supports that helped, encouraged, or supported you throughout the development stages of this project. It's always lovely to appreciate those that help us grow and improve our developer skills. A few examples have been provided below to give you some ideas.
 
-⚠️ --- END ---⚠️
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
-- I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
-
