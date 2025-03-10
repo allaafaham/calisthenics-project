@@ -4,11 +4,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/allaafaham/calisthenics-project)](https://www.github.com/allaafaham/calisthenics-project/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/allaafaham/calisthenics-project)](https://www.github.com/allaafaham/calisthenics-project)
 
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, include a few paragraphs providing an overview of your project. Essentially, this part is your "sales pitch". Describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-⚠️ --- END --- ⚠️
+This website is designed to help individuals improve their fitness through calisthenics, offering accessible workout routines, progress tracking, and personalized training sessions. It’s created for anyone interested in building strength using their own bodyweight, from beginners to those with more experience. With dedicated pages for basic exercises, tracking progress, and booking one-on-one sessions, the site provides everything users need to start, grow, and challenge themselves in their fitness journey. The exercises are clearly explained with descriptions, benefits, and instructions to ensure users perform them correctly. Whether someone is just getting started or looking to level up, this platform aims to keep users motivated, help them hit their goals, and build lasting fitness habits.
 
 ![screenshot](documentation/mockup.png)
 
@@ -41,7 +37,7 @@ source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=ht
 
 ##### Content Requirements
 - Detailed descriptions of each exercise in each category (Warm-up, Upper Body, Lower Body).
-- discriptions explaining proper exercise form.
+- Discriptions explaining proper exercise form.
 - Form for private sessions.
 
 #### 3. Structure Plane
@@ -49,7 +45,8 @@ source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=ht
 - **Navigation Menu**:
   - Links to Home, Basic Workouts, Progerss and a booking page
 - **Hierarchy**:
-  - Clear call-to-action buttons.
+  - Main Content: adjusted to fits each page's purpose. 
+
   - Prominent placement of social media links in the footer.
 
 ##### User Flow
@@ -70,35 +67,20 @@ source: [calisthenics-project amiresponsive](https://ui.dev/amiresponsive?url=ht
 
 ### Colour Scheme
 
-I used the colors white, 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
+I chose the following colors based on my past experiences with sports websites and gyms, where these tones are often used to evoke strength, energy, and positivity. The combination of these colors is practical for creating a visually appealing design.
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
+- `#000001` primary text.
+- `#fbe51f` primary highlights.
+- `#ffffff` secondary text.
 
-![screenshot](documentation/coolors.png)
 
 ### Typography
 
-⚠️ INSTRUCTIONS ⚠️
-
-Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
-
-⚠️ --- END --- ⚠️
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for the primary headers and titles.
+- [Oswald](https://fonts.google.com/specimen/Oswald) was used for all other secondary text.
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
-
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, list all of your possible user stories for the project. Samples have been provided below using the example walkthrough project for your inspiration. Make sure to adjust to match your own project features!
-
-⚠️ --- END --- ⚠️
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
@@ -129,14 +111,6 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
 
 ## Features
-
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, you should go over the different parts of your project, and describe each feature. You should explain what value each of the features provides for the user, focusing on your target audience, what they want to achieve, and how your project can help them achieve these things.
-
-**IMPORTANT**: Remember to always include a screenshot of each individual feature!
-
-⚠️ --- END --- ⚠️
 
 ### Existing Features
 
