@@ -102,13 +102,12 @@ If you've created wireframes or mock-ups, use this section to display screenshot
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
-| Page | Mobile | Tablet | Desktop |
-| --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
-| Gallery | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+| Page | Mobile | Desktop |
+| --- | --- | --- |
+| Home | ![screenshot](documentation/wireframes/mobile-home.png)  | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Basic Workouts | ![screenshot](documentation/wireframes/mobile-basicworkouts.png) | ![screenshot](documentation/wireframes/desktop-basicworkouts.png) |
+| Progress | ![screenshot](documentation/wireframes/mobile-progress.png)  | ![screenshot](documentation/wireframes/desktop-progress.png) |
+| Booking | ![screenshot](documentation/wireframes/mobile-booking.png)  | ![screenshot](documentation/wireframes/desktop-booking.png) |
 
 ## Features
 
@@ -117,7 +116,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Feature        | Notes | Screenshot |
 | -------------- | ----- | ----------- |
 | Navbar         | Featured on all pages, the fully responsive navigation bar includes links to the **Home**, **Basic Workouts**, **Progress**, and **Booking** pages, as well as the site logo. It is identical on all pages to allow for easy navigation. On the smallest screens, an icon is used to toggle the navbar, saving space. This section allows the user to easily navigate between pages without returning to the previous page using the "back" button. | ![screenshot](documentation/features/navbar.png) |
-| Hero Image     | The landing page includes a hero image with text-overlay to introduce the user to the website. The image grabs attention and provides context for the website theme. | ![screenshot](documentation/features/hero-image.png) |
+| Hero Image     | The landing page includes a hero image with text-overlay to introduce the user to the website. The image grabs attention and provides context for the website theme. | ![screenshot](documentation/features/hero.png) |
 | Basic Workouts | This section provides the user with three workout categories: **Warm-up**, **Upper Body**, and **Lower Body**. Each category contains three exercises with descriptions, benefits, and instructions on how to perform each exercise correctly. This helps users easily learn and execute calisthenics exercises. | ![screenshot](documentation/features/basic-workouts.png) |
 | Progress       | The **Progress** page features a table showing different levels of calisthenics trainer expertise: **Beginner**, **Intermediate**, and **Professional**. This section helps users track their own progress and understand the skills required for each level. | ![screenshot](documentation/features/progress.png) |
 | Booking        | The **Booking** page allows users to book private sessions. The page includes a form where users can fill in their details. Upon successful submission, users are directed to a confirmation page. | ![screenshot](documentation/features/booking.png) |
@@ -158,12 +157,6 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ## Agile Development Process
 
 ### GitHub Projects
-
-⚠️ TIP ⚠️
-
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
 
 [GitHub Projects](https://www.github.com/allaafaham/calisthenics-project/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
@@ -262,12 +255,6 @@ There are no remaining major differences between the local version when compared
 | [Love Running](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
 | [Pexels](https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg) | Hero image |
-| [Wallhere](https://c.wallhere.com/images/9c/c8/da4b4009f070c8e1dfee43d25f99-2318808.jpg!d) | Background wallpaper |
-| [Pixabay](https://cdn.pixabay.com/photo/2017/09/04/16/58/passport-2714675_1280.jpg) | Background wallpaper |
-| [DALL-E 3](https://openai.com/index/dall-e-3) | AI generated artwork |
-| [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
-| [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
-| [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
 
 ### Acknowledgements
 
