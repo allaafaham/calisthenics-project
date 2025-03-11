@@ -132,7 +132,7 @@ a {
     /* width: 100%; */
 }
 
-#h1main h1 {
+#h1main h, #h1main h2 {
     padding: 15px;
     background-color: var(--secondary-color);;
     top: -39px;
