@@ -114,7 +114,6 @@ a {
 
 #contactform {
     margin: 1em;
-
 }
 
 
@@ -139,6 +138,8 @@ a {
 .progressTable {
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: 80%;
+    margin: auto;
 }
 
 .accordion-button:not(.collapsed) {
