@@ -74,14 +74,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome | Pass | 
 | --- | --- | --- | --- | 
 | As a first-time visitor | I want to see what calisthenics is about | so that I can decide if it's for me. | x |
