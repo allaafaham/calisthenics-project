@@ -112,7 +112,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | -------------- | ----- | ----------- |
 | Navbar         | Featured on all pages, the fully responsive navigation bar includes links to the **Home**, **Basic Workouts**, **Progress**, and **Booking** pages, as well as the site logo. It is identical on all pages to allow for easy navigation. On the smallest screens, an icon is used to toggle the navbar, saving space. This section allows the user to easily navigate between pages without returning to the previous page using the "back" button. | ![screenshot](documentation/features/navbar.png) |
 | Hero Image     | The landing page includes a hero image with text-overlay to introduce the user to the website. The image grabs attention and provides context for the website theme. | ![screenshot](documentation/features/hero.png) |
-| Basic Workouts | This section provides the user with three workout categories: **Warm-up**, **Upper Body**, and **Lower Body**. Each category contains three exercises with descriptions, benefits, and instructions on how to perform each exercise correctly. This helps users easily learn and execute calisthenics exercises. | ![screenshot](documentation/features/basic-workouts.png) |
+| Basic Workouts | This section provides the user with three workout categories: **Warm-up**, **Upper Body**, and **Lower Body**. Each category contains three exercises with descriptions, benefits, and instructions on how to perform each exercise correctly. This helps users easily learn and execute calisthenics exercises. | ![screenshot](documentation/features/basicworkouts.png) |
 | Progress       | The **Progress** page features a table showing different levels of calisthenics trainer expertise: **Beginner**, **Intermediate**, and **Professional**. This section helps users track their own progress and understand the skills required for each level. | ![screenshot](documentation/features/progress.png) |
 | Booking        | The **Booking** page allows users to book private sessions. The page includes a form where users can fill in their details. Upon successful submission, users are directed to a confirmation page. | ![screenshot](documentation/features/booking.png) |
 | Footer         | The footer includes links to the site's social media platforms, which open in a new tab for easy access. This section encourages users to stay connected through social media. | ![screenshot](documentation/features/footer.png) |
@@ -173,7 +173,6 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 - **Must Have**: guaranteed to be delivered - required to Pass the project (*max ~60% of stories*)
 - **Should Have**: adds significant value, but not vital (*~20% of stories*)
 - **Could Have**: has small impact if left out (*the rest ~20% of stories*)
-- **Won't Have**: not a priority for this iteration - future features
 
 ## Testing
 
