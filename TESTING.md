@@ -7,28 +7,9 @@
 
 ## Code Validation
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use the space below to discuss code validation for all of your own code files (*where applicable*). You are not required to validate external libraries/frameworks.
-
-**MANDATORY**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Where possible, always validate the live URL pages/files, not your local code using copy/paste. There could be subtle/hidden differences.
-
-⚠️ --- END --- ⚠️
 
 ### HTML
 
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site URLs, validate using this link: https://validator.w3.org/#validate_by_uri
-2. Otherwise, if you are copying/pasting your HTML code manually, use this link: https://validator.w3.org/#validate_by_input
-
-It's recommended to validate the live pages (all of them) using the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/index.html
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
@@ -37,96 +18,45 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | [404.html](https://github.com/allaafaham/calisthenics-project/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/404.html) | ![screenshot](documentation/validation/html--404.png) |
 |  | [basic-workouts.html](https://github.com/allaafaham/calisthenics-project/blob/main/basic-workouts.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/basic-workouts.html) | ![screenshot](documentation/validation/html--basic-workouts.png) |  |
 |  | [booking.html](https://github.com/allaafaham/calisthenics-project/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/booking.html) | ![screenshot](documentation/validation/html--booking.png) |  |
-|  | [index.html](https://github.com/allaafaham/calisthenics-project/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/index.html) | ![screenshot](documentation/validation/html--index.png) | Notes (if applicable) |
-|  | [progress.html](https://github.com/allaafaham/calisthenics-project/blob/main/progress.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/progress.html) | ![screenshot](documentation/validation/html--progress.png) | Notes (if applicable) |
-|  | [success.html](https://github.com/allaafaham/calisthenics-project/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/success.html) | ![screenshot](documentation/validation/html--success.png) | Notes (if applicable) |
+|  | [index.html](https://github.com/allaafaham/calisthenics-project/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/index.html) | ![screenshot](documentation/validation/html--index.png) |  |
+|  | [progress.html](https://github.com/allaafaham/calisthenics-project/blob/main/progress.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/progress.html) | ![screenshot](documentation/validation/html--progress.png) |  |
+|  | [success.html](https://github.com/allaafaham/calisthenics-project/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://allaafaham.github.io/calisthenics-project/success.html) | ![screenshot](documentation/validation/html--success.png) |  |
 
 
 ### CSS
-
-⚠️ INSTRUCTIONS ⚠️
-
-1. [*recommended*] If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-2. If you are copying/pasting your CSS code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-
-It's recommended to validate the live site for your primary CSS file on the deployed URL. This will give you a custom URL as well, which you can use below on your testing documentation. It makes it easier to return back to a page for validating it again in the future. The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https://allaafaham.github.io/calisthenics-project
-
-If you have additional/multiple CSS files, then individual "[validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)" is recommended for the extra CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using external libraries/frameworks (e.g: Bootstrap, Materialize, Font Awesome, etc.), then sometimes the tool will attempt to also validate these, even though it's not part of your own actual code that you wrote. You are not required to validate the external libraries or frameworks!
-
-⚠️ --- END --- ⚠️
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/allaafaham/calisthenics-project/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://allaafaham.github.io/calisthenics-project) | ![screenshot](documentation/validation/css-assets-style.png) | Notes (if applicable) |
-
+| assets | [style.css](https://github.com/allaafaham/calisthenics-project/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://allaafaham.github.io/calisthenics-project) | ![screenshot](documentation/validation/css-assets-style.png) |
 
 ## Responsiveness
 
-⚠️ INSTRUCTIONS ⚠️
 
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
-
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
-
-Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-⚠️ --- END --- ⚠️
-
-I've tested my deployed project to check for responsiveness issues.
+All pages were thoroughly tested for responsiveness across screen sizes starting from 320px and above
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/ipad-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
+| Basic Workouts | ![screenshot](documentation/responsiveness/mobile-basicworkouts.png) | ![screenshot](documentation/responsiveness/ipad-basicworkouts.png) | ![screenshot](documentation/responsiveness/desktop-basicworkouts.png) | Works as expected |
+| Progress | ![screenshot](documentation/responsiveness/mobile-progress.png) | ![screenshot](documentation/responsiveness/ipad-progress.png) | ![screenshot](documentation/responsiveness/desktop-progress.png) | Works as expected |
+| Booking | ![screenshot](documentation/responsiveness/mobile-booking.png) | ![screenshot](documentation/responsiveness/ipad-booking.png) | ![screenshot](documentation/responsiveness/desktop-booking.png) | Works as expected |
+| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/ipad-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+ipad
 
 ## Browser Compatibility
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers. Consider testing at least 3 different browsers, if available on your system. You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time. Some of these are paid services, but some are free. If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Page | Chrome | Firefox | Safari | Notes |
 | --- | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
+| Basic Workouts | ![screenshot](documentation/browsers/chrome-basicworkouts.png) | ![screenshot](documentation/browsers/firefox-basicworkouts.png) | ![screenshot](documentation/browsers/safari-basicworkouts.png) | Works as expected |
+| Progress | ![screenshot](documentation/browsers/chrome-progress.png) | ![screenshot](documentation/browsers/firefox-progress.png) | ![screenshot](documentation/browsers/safari-progress.png) | Works as expected |
+| Booking | ![screenshot](documentation/browsers/chrome-booking.png) | ![screenshot](documentation/browsers/firefox-booking.png) | ![screenshot](documentation/browsers/safari-booking.png) | Works as expected |
 | 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| success | ![screenshot](documentation/browsers/chrome-success.png) | ![screenshot](documentation/browsers/firefox-success.png) | ![screenshot](documentation/browsers/safari-success.png) | Works as expected |
 
 ## Lighthouse Audit
 
